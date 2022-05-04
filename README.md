@@ -56,3 +56,32 @@ Run this command in the command prompt.
 `python Run.py`
 
 It will display the goal state and ask the user to input the number of moves by which it will scramble the goal state to a start state . 
+
+## Results:
+
+### Deep learning Output:
+
+When we train and run the RL agent by using Deep Learning feature, we get 24 solved cubes for 2x2x2 cube in 45 minutes of training and 38 solved cubes for 3x3x3 in 3.5hrs of training for 2.9% randomness. We can see the results as follows.
+
+![image](https://user-images.githubusercontent.com/33855600/166731416-6e9d2a36-0470-4875-bb3d-426965eb1a0f.png)
+
+![image](https://user-images.githubusercontent.com/33855600/166731629-97e6ce41-1b24-4bfc-b317-425c6a37889d.png)
+
+### Final statistics we get after solving 2x2x2 cube
+
+![2x2 stats](https://user-images.githubusercontent.com/33855600/166733925-4cfe670f-49d9-4b98-b699-9efbe5042f79.png)
+
+We get the 3x3x3 cube stats if we keep running the agent for almost 12hrs.
+
+### SARSA Output:
+
+![image](https://user-images.githubusercontent.com/33855600/166736121-83cd8772-802c-450d-bab4-0566e39302dd.png)
+ 
+The SARSA gives an expected cube in 11 episodes and the last episode is 73 as shown as in the figure.
+
+## Conclusion:
+
+SARSA is preferable over Q Learning to minimize errors. If we want to fast in a fast-iterating environment, QL should be your choice. However, if mistakes are costly then SARSA is the better option. If your state space is too large, try exploring the deep q network.
+
+
+
