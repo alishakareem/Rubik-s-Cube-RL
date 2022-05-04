@@ -91,8 +91,7 @@ SARSA is preferable over Q Learning to minimize errors. If we want to fast in a 
 ## References:
 
 1. http://artint.info/html/ArtInt_272.html
-2. https://dalspace.library.dal.ca/bitstream/handle/10222/72115/Smith-Robert-MCSC-CSCIAugust-
-2016.pdf?sequence=3
+2. https://dalspace.library.dal.ca/bitstream/handle/10222/72115/Smith-Robert-MCSC-CSCIAugust-2016.pdf?sequence=3
 3. https://www.youtube.com/watch?v=FhSaHuC0u2M&ab_channel=PankajPorwal
 4. https://www.wikiwand.com/en/Rubik%27s_Cube
 5. https://towardsdatascience.com/simple-reinforcement-learning-q-learning-fcddc4b6fe56#:~:text=Q%2Dlearning%20and%20making%20updates&text=The%20first%20is%20to%20use,us%20to%20make%20a%20decision.
