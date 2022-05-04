@@ -22,7 +22,7 @@ Its relative nature allows algorithms to be written in such a way that they can 
 * z (rotate): rotate the entire Cube on F
 
 ## Algorithms used:
-We created 2 ML agents using Deep Q-Learning and SARSA(State Action Reward State Action)
+We created 2 ML agents using Deep Q-Learning and SARSA(State Action Reward State Action) to solve the 2x2x2 and 3x3x3 size cube
 
 > ### Deep Q-Learning:
 >>Q-learning is a model-free reinforcement learning algorithm to learn the value of an action in a particular state. 
